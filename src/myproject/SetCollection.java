@@ -35,14 +35,16 @@ public class SetCollection {
 		
 		//System.out.println(h);// insertion order is not preserved.
 		
-		LinkedHashSet<Integer> h = new LinkedHashSet<>();
-		h.add(4);
-		h.add(23);
-		h.add(32);
+		//LinkedHashSet<Integer> h = new LinkedHashSet<>();
+		//h.add(4);
+		//h.add(23);
+		//h.add(32);
 		
-		System.out.println(h);
+		//System.out.println(h);// insertion order is preserved.
 		
-		
+		//##SortedSet## If we want to represents the group of individual objects as a single entity, without any duplicate 
+		//according to some sorting order then we should go for SortedSet.
+		// 6 methods are there in SortedSet first(),last(),headset(),tailset(),subset(),comparator()
 	}
 	
 	
